@@ -6,7 +6,7 @@
 }
 
 .container {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -136,11 +136,11 @@
   color: #888;
 }
 
-.tasks__wrapper_edit .tasks__input {
+.tasks__wrapper_edite .tasks__input {
   display: inline-block;
   width: 224px;
 }
 
-.tasks__wrapper_edit .tasks__label {
+.tasks__wrapper_edite .tasks__label {
   display:none;
 }

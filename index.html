@@ -18,47 +18,52 @@
         <a class="aside__link" href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?</a>
       </aside>
-
-      <section class="new-tasks">
+      <section class="tasks">
         <h3 class="tasks__heading">Add Item</h3>
-        <div class="tasks__wrapper tasks__wrapper_new">
-          <input class="tasks__input tasks__input_new" type="text">
-          <button class="btn btn-default">Add</button>
+        <div class="tasks__new">
+          <div class="tasks__wrapper tasks__wrapper_new">
+            <input class="tasks__input tasks__input_new" type="text">
+            <button class="btn btn-add">Add</button>
+          </div>
         </div>
       </section>
 
-      <section class="todo-tasks">
+      <section class="tasks">
         <h3 class="tasks__heading">Todo</h3>
-        <div class="tasks__wrapper">
-          <input type="checkbox" class="tasks__checkbox">
-          <label class="tasks__label">Pay Bills</label>
-          <input type="text" class="tasks__input">
-          <button class="btn btn-default">Edit</button>
-          <button class="btn btn-delete">
-            <img src="./remove.svg" alt="remove" class="btn-delete__img">
-          </button>
-        </div>
-        <div class="tasks__wrapper tasks__wrapper_edit">
-          <input type="checkbox" class="tasks__checkbox">
-          <label class="tasks__label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="tasks__input">
-          <button class="btn btn-default">Save</button>
-          <button class="btn btn-delete">
-            <img src="./remove.svg" alt="remove" class="btn-delete__img">
-          </button>
+        <div class="tasks__todo">
+          <div class="tasks__wrapper">
+            <input type="checkbox" class="tasks__checkbox">
+            <label class="tasks__label">Pay Bills</label>
+            <input type="text" class="tasks__input">
+            <button class="btn btn-default">Edit</button>
+            <button class="btn btn-delete">
+              <img src="./remove.svg" alt="remove" class="btn-delete__img">
+            </button>
+          </div>
+          <div class="tasks__wrapper tasks__wrapper_edite">
+            <input type="checkbox" class="tasks__checkbox">
+            <label class="tasks__label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="tasks__input">
+            <button class="btn btn-default">Save</button>
+            <button class="btn btn-delete">
+              <img src="./remove.svg" alt="remove" class="btn-delete__img">
+            </button>
+          </div>
         </div>
       </section>
 
-      <section class="completed-tasks">
+      <section class="tasks">
         <h3 class="tasks__heading">Completed</h3>
-        <div class="tasks__wrapper">
-          <input type="checkbox" class="tasks__checkbox" checked>
-          <label class="tasks__label tasks__label_completed">See the Doctor</label>
-          <input type="text" class="tasks__input">
-          <button class="btn btn-default">Edit</button>
-          <button class="btn btn-delete">
-            <img src="./remove.svg" alt="remove" class="btn-delete__img">
-          </button>
+        <div class="tasks__completed">
+          <div class="tasks__wrapper">
+            <input type="checkbox" class="tasks__checkbox" checked>
+            <label class="tasks__label tasks__label_completed">See the Doctor</label>
+            <input type="text" class="tasks__input">
+            <button class="btn btn-default">Edit</button>
+            <button class="btn btn-delete">
+              <img src="./remove.svg" alt="remove" class="btn-delete__img">
+            </button>
+          </div>
         </div>
       </section>
     </div>
